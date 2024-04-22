@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "outDir": "./build",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "target": "ESNext",
+        "lib": [
+            "es6",
+            "dom"
+            
+        ],
+        "types": [
+            "reflect-metadata",
+            "node",
+            "express",
+        ],
+         
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
